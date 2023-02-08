@@ -5,7 +5,7 @@ export const theme = {
     tertiary: "#f4f4f4",
   },
   light: {
-    primary: "#fff",
+    primary: "#eee",
     secondary: "#f4f4f4",
     tertiary: "#333",
   },

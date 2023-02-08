@@ -1,7 +1,5 @@
 import { createUseStyles, useTheme } from "react-jss";
 
-const $white = "#f4f4f4";
-const $black = "#333";
 type Theme = {
   primary: string;
   secondary: string;
@@ -34,7 +32,7 @@ export const Login = createUseStyles((theme: Theme) => ({
     display: "flex",
     "flex-direction": "column",
     "align-items": "center",
-    padding: "2rem",
+    padding: "4rem",
   },
 
   form_container: {
@@ -42,14 +40,17 @@ export const Login = createUseStyles((theme: Theme) => ({
   },
 
   form_input: {
-    padding: "1.2rem",
-    margin: "5px 0 1rem 0",
+    padding: "1rem",
+    fontSize: "1.6rem",
+    margin: "5px 0 1.2rem 0",
+    borderRadius: "5px",
     width: "100%",
     display: "block",
     border: "1px solid #ccc",
   },
 
   form_text: {
+    fontSize: "1.2rem",
     color: theme.tertiary,
     width: "100%",
   },
@@ -107,7 +108,7 @@ export const Login = createUseStyles((theme: Theme) => ({
   register_link: {
     display: "block",
     "text-align": "center",
-    "font-size": "1.2rem",
+    "font-size": "1.4rem",
     "margin-bottom": "2rem",
   },
 }));

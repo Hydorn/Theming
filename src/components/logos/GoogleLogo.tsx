@@ -1,5 +1,5 @@
 import * as React from "react";
-import { LogoProps } from "../assets/types";
+import { LogoProps } from "../../assets/types";
 
 const GoogleLogo: React.FC<LogoProps> = ({ className }) => (
   <svg
